@@ -1,0 +1,9 @@
+{
+  "name": "clipboard-text",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
