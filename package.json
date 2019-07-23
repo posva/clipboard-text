@@ -1,9 +1,27 @@
 {
   "name": "clipboard-text",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Eduardo San Martin Morote",
+    "email": "posva13@gmail.com",
+    "url": "https://esm.dev"
+  },
+  "contributors": [
+    {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "https://sindresorhus.com"
+    }
+  ],
   "license": "MIT",
+  "scripts": {
+    "build": "bili index.ts --format es --format cjs --format umd-min --banner --concurrent --module-name clipboardText",
+    "test": "yarn run build"
+  },
   "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-typescript2": "^0.22.0",
     "typescript": "^3.5.3"
   }
 }
