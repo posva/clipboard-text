@@ -8,16 +8,16 @@
 /**
  * Copy arbitrary text to the clipboard
  *
- * @param input text t ocopy
+ * @param text text to copy
  * @param parentElement element where the textarea should be inserted. Defaults
  * to body. You should provide a value if at the time the function is called,
  * the focus is trapped in a modal. The value should be the element where the
  * focus is trapped. Otherwise the browser may prevent the copy command
  */
-export default function copy(input: string, parentElement?: Element) {
+export default function copy(text: string, parentElement?: Element) {
   const element = document.createElement('textarea')
 
-  element.value = input
+  element.value = text
 
   // Prevent keyboard from showing on mobile
   element.setAttribute('readonly', '')
@@ -41,7 +41,7 @@ export default function copy(input: string, parentElement?: Element) {
 
   // Explicit selection workaround for iOS
   element.selectionStart = 0
-  element.selectionEnd = input.length
+  element.selectionEnd = text.length
 
   let isSuccess = false
   try {
