@@ -1,7 +1,7 @@
 {
   "name": "clipboard-text",
   "description": "Simple and small copy-text-to-the-clipboard-utility with IE11 support",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.umd.min.js",
