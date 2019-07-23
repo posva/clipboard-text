@@ -2,6 +2,9 @@
   "name": "clipboard-text",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.min.js",
+  "jsdelivr": "dist/index.umd.min.js",
   "author": {
     "name": "Eduardo San Martin Morote",
     "email": "posva13@gmail.com",
@@ -17,8 +20,12 @@
   "license": "MIT",
   "scripts": {
     "build": "bili index.ts --format es --format cjs --format umd-min --banner --concurrent --module-name clipboardText",
+    "prepublishOnly": "yarn run build",
     "test": "yarn run build"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "bili": "^4.8.1",
     "rollup-plugin-typescript2": "^0.22.0",
