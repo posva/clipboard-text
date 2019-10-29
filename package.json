@@ -39,7 +39,7 @@
   ],
   "devDependencies": {
     "bili": "^4.8.1",
-    "rollup-plugin-typescript2": "^0.24.0",
+    "rollup-plugin-typescript2": "^0.25.1",
     "typescript": "^3.5.3"
   }
 }
