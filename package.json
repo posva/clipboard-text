@@ -38,7 +38,7 @@
     "focus"
   ],
   "devDependencies": {
-    "bili": "^4.8.1",
+    "bili": "^5.0.2",
     "rollup-plugin-typescript2": "^0.24.0",
     "typescript": "^3.5.3"
   }
