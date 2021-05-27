@@ -4,6 +4,9 @@
   "version": "1.0.1",
   "type": "module",
   "exports": "./dist/index.js",
+  "engines": {
+    "node": ">=12"
+  },
   "main": "dist/index.js",
   "module": "dist/index.js",
   "unpkg": "dist/index.global.js",
