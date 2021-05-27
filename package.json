@@ -1,7 +1,7 @@
 {
   "name": "clipboard-text",
   "description": "Simple and small copy-text-to-the-clipboard-utility with IE11 support",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "type": "module",
   "exports": "./dist/index.js",
   "engines": {
