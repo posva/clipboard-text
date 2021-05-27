@@ -1,4 +1,4 @@
-# clipboard-text [![Build Status](https://badgen.net/circleci/github/posva/clipboard-text)](https://circleci.com/gh/posva/clipboard-text) [![npm package](https://badgen.net/npm/v/clipboard-text)](https://www.npmjs.com/package/clipboard-text)
+# clipboard-text [![Build Status](https://github.com/posva/clipboard-text/workflows/test/badge.svg)](https://github.com/posva/pinia/actions/workflows/test.yml) [![npm package](https://badgen.net/npm/v/clipboard-text)](https://www.npmjs.com/package/clipboard-text)
 
 > Simple and small copy-text-to-the-clipboard-utility with IE11 support
 
