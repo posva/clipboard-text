@@ -2,10 +2,12 @@
   "name": "clipboard-text",
   "description": "Simple and small copy-text-to-the-clipboard-utility with IE11 support",
   "version": "1.0.1",
+  "type": "module",
+  "exports": "./dist/index.js",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "unpkg": "dist/index.umd.min.js",
-  "jsdelivr": "dist/index.umd.min.js",
+  "module": "dist/index.js",
+  "unpkg": "dist/index.global.js",
+  "jsdelivr": "dist/index.global.js",
   "author": {
     "name": "Eduardo San Martin Morote",
     "email": "posva13@gmail.com",
@@ -20,7 +22,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "bili index.ts --format es --format cjs --format umd-min --banner --concurrent --module-name clipboardText",
+    "build:global": "tsup --global-name clipboardText --format iife --minify index.ts",
+    "build:es": "tsup --dts --format esm index.ts",
+    "build": "rm -rf dist && yarn run build:es && yarn run build:global",
     "prepublishOnly": "yarn run build",
     "test": "yarn run build"
   },
@@ -38,8 +42,7 @@
     "focus"
   ],
   "devDependencies": {
-    "bili": "^4.8.1",
-    "rollup-plugin-typescript2": "^0.24.0",
+    "tsup": "^4.11.1",
     "typescript": "^4.0.2"
   }
 }
