@@ -691,10 +691,10 @@ ts-interface-checker@^0.1.9:
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
-tsup@^4.11.1:
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/tsup/-/tsup-4.11.1.tgz#41e1f2b5ba7790c350e106b15a6683193a6dc871"
-  integrity sha512-/AU2QhhOFjXEPkmIEljLAtPcEyL6KQLFDlM6gWxDZiaZdQAfW9Tyk1/WqV+tf6eoBYjXW6KMnQX7vwMczL06kA==
+tsup@^4.11.2:
+  version "4.11.2"
+  resolved "https://registry.yarnpkg.com/tsup/-/tsup-4.11.2.tgz#135c69ff1b0ef9357d5e0076d1d6c29118904b43"
+  integrity sha512-cp+gy0TGzFm/3PkPNeiZ2Fvi4MKI8jj6Xq6gVpSQ+Og+6GPqfws2K4zYo11OJoccuk2LnlJIJt8xwnoYCVGpSA==
   dependencies:
     cac "^6.7.2"
     chalk "^4.1.0"
