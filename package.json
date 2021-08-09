@@ -45,7 +45,7 @@
     "focus"
   ],
   "devDependencies": {
-    "tsup": "^4.12.5",
+    "tsup": "^4.13.1",
     "typescript": "^4.3.5"
   }
 }
