@@ -5,7 +5,7 @@
   "type": "module",
   "exports": "./dist/index.js",
   "engines": {
-    "node": ">=v12.22.6"
+    "node": ">=v12.22.7"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -46,6 +46,6 @@
   ],
   "devDependencies": {
     "tsup": "^4.14.0",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.4"
   }
 }
