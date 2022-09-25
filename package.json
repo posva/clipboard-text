@@ -5,7 +5,7 @@
   "type": "module",
   "exports": "./dist/index.js",
   "engines": {
-    "node": ">=v12.22.12"
+    "node": ">=v16.17.1"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
