@@ -46,6 +46,6 @@
   ],
   "devDependencies": {
     "tsup": "^4.14.0",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   }
 }
