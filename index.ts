@@ -13,8 +13,9 @@
  * to body. You should provide a value if at the time the function is called,
  * the focus is trapped in a modal. The value should be the element where the
  * focus is trapped. Otherwise the browser may prevent the copy command
+ * @returns true if the copy was successful, false otherwise
  */
-export default function copy(text: string, parentElement?: Element) {
+export default function copy(text: string, parentElement?: Element): boolean {
   const element = document.createElement('textarea')
 
   element.value = text
