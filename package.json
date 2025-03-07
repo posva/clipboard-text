@@ -29,7 +29,7 @@
     "build:es": "tsup --dts --format esm index.ts",
     "build": "rm -rf dist && pnpm run build:es && pnpm run build:global",
     "prepublishOnly": "pnpm run build",
-    "test": "pnpm run build"
+    "test": "tsc --noEmit && pnpm run build"
   },
   "files": [
     "dist"
