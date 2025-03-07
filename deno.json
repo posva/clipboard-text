@@ -1,7 +1,7 @@
 {
   "name": "@posva/clipboard-text",
   "description": "Simple and small copy-text-to-the-clipboard-utility with IE11 support",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "exports": "./index.ts",
   "publish": {
