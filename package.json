@@ -4,9 +4,9 @@
   "version": "2.0.0",
   "type": "module",
   "exports": "./dist/index.js",
-  "packageManager": "pnpm@10.6.1",
+  "packageManager": "pnpm@10.6.2",
   "engines": {
-    "node": ">=v20.0.0"
+    "node": ">=20.18.3"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
