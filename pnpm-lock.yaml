@@ -10,10 +10,10 @@ importers:
     devDependencies:
       tsup:
         specifier: ^4.14.0
-        version: 4.14.0(typescript@5.8.2)
+        version: 4.14.0(typescript@5.8.3)
       typescript:
-        specifier: ^5.8.2
-        version: 5.8.2
+        specifier: ^5.8.3
+        version: 5.8.3
 
 packages:
 
@@ -423,8 +423,8 @@ packages:
       typescript:
         optional: true
 
-  typescript@5.8.2:
-    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -805,7 +805,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsup@4.14.0(typescript@5.8.2):
+  tsup@4.14.0(typescript@5.8.3):
     dependencies:
       cac: 6.7.14
       chalk: 4.1.2
@@ -821,13 +821,13 @@ snapshots:
       sucrase: 3.35.0
       tree-kill: 1.2.2
     optionalDependencies:
-      typescript: 5.8.2
+      typescript: 5.8.3
     transitivePeerDependencies:
       - postcss
       - supports-color
       - ts-node
 
-  typescript@5.8.2: {}
+  typescript@5.8.3: {}
 
   which@2.0.2:
     dependencies:
