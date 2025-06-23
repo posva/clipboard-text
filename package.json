@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "type": "module",
   "exports": "./dist/index.js",
-  "packageManager": "pnpm@10.12.1",
+  "packageManager": "pnpm@10.12.2",
   "engines": {
     "node": ">=22.16.0"
   },
