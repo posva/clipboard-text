@@ -4,9 +4,9 @@
   "version": "2.0.0",
   "type": "module",
   "exports": "./dist/index.js",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.14.0",
   "engines": {
-    "node": ">=22.17.1"
+    "node": ">=22.18.0"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -47,7 +47,7 @@
   ],
   "devDependencies": {
     "tsup": "^4.14.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
