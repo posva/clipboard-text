@@ -47,7 +47,7 @@
   ],
   "devDependencies": {
     "tsup": "^4.14.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
